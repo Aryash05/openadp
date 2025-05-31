@@ -160,10 +160,3 @@ can can split the honest nodes into two groups of 6, and add thei compromized
 nodes to both groups.  The attacker can then make 20 guesses, 10 with each
 group.  This splitting attack is worse for other systems, but isn't too bad for
 OpenADP.
-
-### Reseting the nuber of bad guesses
-
-After a good guess and backup recovery, we'd like to get our guesses back in
-case we need to do it again later.  The new device can reset the number of bad
-guesses by registering using the old `DID`.  The new device should also
-register a new backup as soon as practical.
